@@ -1,0 +1,55 @@
+.report-page select {
+  width: 100%;
+}
+
+.report-page .ant-layout-content {
+   background-color: white;
+   padding: 10px 20px;
+  /*top: 10px;*/
+  /*position: absolute;*/
+  /*left: 399px;*/
+  /*right: 0;*/
+  /*bottom: 0;*/
+  border: 1px solid;
+  min-height: 120px;
+
+}
+
+.report-page .ant-layout-sider{
+  border: 1px solid;
+
+}
+
+.report-page .param-name {
+  padding-left: 25px;
+}
+
+.report-page .param-name, .report-page .report-name, .report-page .param-value{
+  /*font-weight: bold;*/
+  width: 100%;
+}
+
+.report-page .autocomplete {
+  width: 250px;
+}
+
+.report-page textarea {
+  width: 336px;
+  overflow-y: auto;
+}
+
+.report-page .button-zone {
+  float: right;
+  display: inline;
+  height: 76px;
+
+}
+
+.report-page .ant-alert-content {
+  line-height: 15px;
+  text-align: justify;
+}
+
+.report-page .ant-alert {
+  margin-top: 3px;
+}
